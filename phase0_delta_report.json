@@ -1,0 +1,153 @@
+{
+  "config": {
+    "seed": 0,
+    "n_views": 400,
+    "orbit_n_caps": [
+      7,
+      8,
+      9
+    ],
+    "orbit_node_cap": 200000,
+    "landmarks": 512,
+    "quadruples": 10000,
+    "gate": 0.25
+  },
+  "diagram_graphs": {
+    "census": {
+      "count": 12964,
+      "delta_mean": 1.3058469608145633,
+      "diam_mean": 3.8329219376735577,
+      "ratio_mean": 0.3412655558983852,
+      "ratio_median": 0.375,
+      "ratio_p90": 0.375,
+      "ratio_max": 0.5,
+      "frac_leq_gate": 0.22454489355137303
+    },
+    "views": {
+      "count": 400,
+      "delta_mean": 1.82,
+      "diam_mean": 5.3575,
+      "ratio_mean": 0.3464583333333333,
+      "ratio_median": 0.3333333333333333,
+      "ratio_p90": 0.4,
+      "ratio_max": 0.5,
+      "frac_leq_gate": 0.14
+    },
+    "scaling": {
+      "24": {
+        "count": 60,
+        "delta_mean": 1.975,
+        "diam_mean": 5.783333333333333,
+        "ratio_mean": 0.34432539682539676,
+        "ratio_median": 0.3333333333333333,
+        "ratio_p90": 0.4,
+        "ratio_max": 0.42857142857142855,
+        "frac_leq_gate": 0.05,
+        "seconds": 1.0
+      },
+      "48": {
+        "count": 60,
+        "delta_mean": 2.7083333333333335,
+        "diam_mean": 9.35,
+        "ratio_mean": 0.2968072899322899,
+        "ratio_median": 0.3,
+        "ratio_p90": 0.375,
+        "ratio_max": 0.42857142857142855,
+        "frac_leq_gate": 0.26666666666666666,
+        "seconds": 16.6
+      },
+      "64": {
+        "count": 60,
+        "delta_mean": 3.025,
+        "diam_mean": 10.9,
+        "ratio_mean": 0.28220358345358343,
+        "ratio_median": 0.2727272727272727,
+        "ratio_p90": 0.35,
+        "ratio_max": 0.3888888888888889,
+        "frac_leq_gate": 0.3,
+        "seconds": 59.7
+      },
+      "96": {
+        "count": 60,
+        "delta_mean": 3.525,
+        "diam_mean": 13.416666666666666,
+        "ratio_mean": 0.2675601544138696,
+        "ratio_median": 0.2692307692307692,
+        "ratio_p90": 0.3333333333333333,
+        "ratio_max": 0.375,
+        "frac_leq_gate": 0.43333333333333335,
+        "seconds": 311.7
+      }
+    }
+  },
+  "orbit_graphs": {
+    "3_1@n<=7": {
+      "nodes": 53863,
+      "truncated": false,
+      "landmarks": 512,
+      "delta": 2.5,
+      "diam": 10,
+      "ratio": 0.25,
+      "seconds": 621.4
+    },
+    "3_1@n<=8": {
+      "nodes": 200000,
+      "truncated": true,
+      "landmarks": 512,
+      "delta": 2.0,
+      "diam": 8,
+      "ratio": 0.25,
+      "seconds": 296.6
+    },
+    "3_1@n<=9": {
+      "nodes": 200000,
+      "truncated": true,
+      "landmarks": 512,
+      "delta": 2.0,
+      "diam": 8,
+      "ratio": 0.25,
+      "seconds": 237.5
+    },
+    "4_1@n<=7": {
+      "nodes": 17700,
+      "truncated": false,
+      "landmarks": 512,
+      "delta": 3.0,
+      "diam": 10,
+      "ratio": 0.3,
+      "seconds": 183.5
+    },
+    "4_1@n<=8": {
+      "nodes": 200000,
+      "truncated": true,
+      "landmarks": 512,
+      "delta": 2.0,
+      "diam": 10,
+      "ratio": 0.2,
+      "seconds": 2034.7
+    },
+    "4_1@n<=9": {
+      "nodes": 200000,
+      "truncated": true,
+      "landmarks": 512,
+      "delta": 2.0,
+      "diam": 8,
+      "ratio": 0.25,
+      "seconds": 282.4
+    }
+  },
+  "gate": {
+    "diagram_graphs_median_ratio": 0.3333333333333333,
+    "diagram_graphs_pass": false,
+    "orbit_graph_ratios": {
+      "3_1@n<=7": 0.25,
+      "3_1@n<=8": 0.25,
+      "3_1@n<=9": 0.25,
+      "4_1@n<=7": 0.3,
+      "4_1@n<=8": 0.2,
+      "4_1@n<=9": 0.25
+    },
+    "orbit_graphs_pass": true,
+    "PASS": true
+  }
+}

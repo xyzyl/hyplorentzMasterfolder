@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: hyplorentz
+Version: 0.1.0
+Summary: Fully hyperbolic SimCLR projection head on the Lorentz model
+Requires-Python: >=3.10
+Requires-Dist: torch
+Requires-Dist: geoopt

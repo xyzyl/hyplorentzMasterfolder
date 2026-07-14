@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hyplorentz"
+version = "0.1.0"
+description = "Fully hyperbolic SimCLR projection head on the Lorentz model"
+requires-python = ">=3.10"
+dependencies = ["torch", "geoopt"]
+
+[tool.setuptools]
+packages = ["hyplorentz"]
